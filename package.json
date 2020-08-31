@@ -1,0 +1,16 @@
+{
+  "name": "WoodWork_Blog_DB",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": "https://github.com/dlimla/WoodWork_Blog_DB.git",
+  "author": "Daniel Lim <danheelim@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.5",
+    "sqlite3": "^5.0.0"
+  }
+}
