@@ -2,7 +2,7 @@
 exports.up = function(knex, Promise) {
   return knex.schema.createTable('wood_species', wood => {
       wood.increments();
-      wood.binary('wood_image')
+      wood.binary('wood_image', 250)
       wood.string('wood_name').notNullable();
       wood.string('wood_strength').notNullable();
       wood.string('wood_scienctific_name')

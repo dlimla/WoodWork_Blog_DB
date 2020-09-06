@@ -6,7 +6,7 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
       return knex('wood_species').insert([
         {
-          wood_image:'',
+          wood_image:'https://images.app.goo.gl/1RKxk9WzZjAeEvB79',
           wood_name: 'Douglas Fir',
           wood_strength: 'soft',
           wood_scienctific_name: 'Pseudotsuga menziesii',
@@ -14,7 +14,7 @@ exports.seed = function(knex, Promise) {
           wood_general_use: 'joinery, veneer, flooring and construction'
         },
         {
-          wood_image:'',
+          wood_image:'https://images.app.goo.gl/ju1V9yExsE2cZi2dA',
           wood_name: 'Mahogany',
           wood_strength: 'durable',
           wood_scienctific_name: 'Swietenia macrophylla',
